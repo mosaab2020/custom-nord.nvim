@@ -511,7 +511,7 @@ theme.loadPlugins = function()
 		NvimTreeMarkdownFile = { fg = nord.nord4_gui },
 		NvimTreeIndentMarker = { fg = nord.nord9_gui },
 		NvimTreeWinSeparator = { fg = nord.nord5_gui },
-    	NvimTreeWinSeparator = { fg = config.options.borders and nord.nord10_gui },
+    	NvimTreeWinSeparator = { fg = nord.nord10_gui },
 		NvimTreeGitDirty = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitStaged = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitMerge = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
