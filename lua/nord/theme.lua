@@ -299,6 +299,7 @@ theme.loadTreeSitter = function()
 		["@text.strike"] = { fg = nord.nord4_gui, style = "strikethrough" },
 		["@text.math"] = { fg = nord.nord7_gui },
 		["@tag.attribute"] = { fg = nord.nord8_gui},
+		["@markup.heading.html"] = { fg = nord.nord5_gui},
 
 		-- @todo Missing highlights
 		-- @function.call
@@ -497,7 +498,7 @@ theme.loadPlugins = function()
 		TelescopeMatching = { link = 'Search' },
 
 		-- NvimTree
-		NvimTreeRootFolder = { fg = nord.nord15_gui },
+		NvimTreeRootFolder = { fg = nord.nord10_gui },
 		NvimTreeSymlink = { fg = nord.nord5_gui },
 		NvimTreeFolderName = { fg = nord.nord4_gui },
 		NvimTreeFolderIcon = { fg = nord.nord9_gui },
@@ -509,6 +510,7 @@ theme.loadPlugins = function()
 		NvimTreeImageFile = { fg = nord.nord4_gui },
 		NvimTreeMarkdownFile = { fg = nord.nord4_gui },
 		NvimTreeIndentMarker = { fg = nord.nord9_gui },
+		NvimTreeWinSeparator = { fg = nord.nord5_gui },
 		NvimTreeGitDirty = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitStaged = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitMerge = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
