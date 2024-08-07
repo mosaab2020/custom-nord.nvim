@@ -498,7 +498,7 @@ theme.loadPlugins = function()
 		TelescopeMatching = { link = 'Search' },
 
 		-- NvimTree
-		NvimTreeRootFolder = { fg = nord.nord10_gui },
+		NvimTreeRootFolder = { fg = nord.nord3_gui },
 		NvimTreeSymlink = { fg = nord.nord5_gui },
 		NvimTreeFolderName = { fg = nord.nord4_gui },
 		NvimTreeFolderIcon = { fg = nord.nord9_gui },
@@ -511,6 +511,7 @@ theme.loadPlugins = function()
 		NvimTreeMarkdownFile = { fg = nord.nord4_gui },
 		NvimTreeIndentMarker = { fg = nord.nord9_gui },
 		NvimTreeWinSeparator = { fg = nord.nord5_gui },
+    	NvimTreeWinSeparator = { fg = config.options.borders and nord.nord10_gui },
 		NvimTreeGitDirty = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitStaged = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitMerge = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
@@ -518,6 +519,7 @@ theme.loadPlugins = function()
 		NvimTreeGitNew = { fg = nord.nord14_gui }, -- diff mode: Added line |diff.txt|
 		NvimTreeGitDeleted = { fg = nord.nord11_gui },	-- diff mode: Deleted line |diff.txt|
 		NvimTreeGitIgnored = { fg = nord.nord3_gui_bright },
+
 		LspDiagnosticsError = { fg = nord.nord12_gui },
 		LspDiagnosticsWarning = { fg = nord.nord15_gui },
 		LspDiagnosticsInformation = { fg = nord.nord10_gui },
