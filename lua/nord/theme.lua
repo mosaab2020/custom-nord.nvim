@@ -304,7 +304,7 @@ theme.loadTreeSitter = function()
 		["@property.css"] = { fg = nord.nord5_gui },
 		["@string.plain.css"] = { fg = nord.nord9_gui },
 		["@string.css"] = { fg = nord.nord9_gui },
-		["@variable.css"] = { fg = nord.nord9_gui },
+		["@variable.css"] = { fg = nord.nord8_gui },
 
 		-- @todo Missing highlights
 		-- @function.call
