@@ -299,7 +299,9 @@ theme.loadTreeSitter = function()
 		["@text.strike"] = { fg = nord.nord4_gui, style = "strikethrough" },
 		["@text.math"] = { fg = nord.nord7_gui },
 		["@tag.attribute"] = { fg = nord.nord8_gui},
+		-- Added be me
 		["@markup.heading.html"] = { fg = nord.nord5_gui},
+		["@string.plain.css"] = { fg = nord.nord5_gui },
 
 		-- @todo Missing highlights
 		-- @function.call
@@ -491,7 +493,7 @@ theme.loadPlugins = function()
 
 		-- Telescope
 		TelescopePromptBorder = { fg = nord.nord9_gui },
-		TelescopeResultsBorder = { fg = nord.nord4_gui },
+		TelescopeResultsBorder = { fg = nord.nord9_gui },
 		TelescopePreviewBorder = { fg = nord.nord9_gui },
 		TelescopeSelectionCaret = { fg = nord.nord9_gui },
 		TelescopeSelection = { fg = nord.nord6_gui, bg = nord.nord2_gui },
