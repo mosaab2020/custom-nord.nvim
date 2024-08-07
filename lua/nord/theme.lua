@@ -261,8 +261,8 @@ theme.loadTreeSitter = function()
 		TSSymbol = { fg = nord.nord15_gui }, -- For identifiers referring to symbols or atoms.
 		TSType = { fg = nord.nord9_gui }, -- For types.
 		TSTypeBuiltin = { fg = nord.nord9_gui }, -- For builtin types.
-		TSTag = { fg = nord.nord4_gui }, -- Tags like html tag names.
-		TSTagDelimiter = { fg = nord.nord15_gui }, -- Tag delimiter like `<` `>` `/`
+		TSTag = { fg = nord.nord9_gui }, -- Tags like html tag names.
+		TSTagDelimiter = { fg = nord.nord9_gui }, -- Tag delimiter like `<` `>` `/`
 		TSText = { fg = nord.nord4_gui }, -- For strings considenord11_gui text in a markup language.
 		TSTextReference = { fg = nord.nord15_gui }, -- FIXME
 		TSEmphasis = { fg = nord.nord10_gui }, -- For text to be represented with emphasis.
@@ -288,8 +288,8 @@ theme.loadTreeSitter = function()
 		["@symbol"] = { fg = nord.nord15_gui },
 		["@type"] = { fg = nord.nord9_gui },
 		["@type.builtin"] = { fg = nord.nord9_gui },
-		["@tag"] = { fg = nord.nord4_gui },
-		["@tag.delimiter"] = { fg = nord.nord15_gui },
+		["@tag"] = { fg = nord.nord9_gui },
+		["@tag.delimiter"] = { fg = nord.nord9_gui },
 		["@text"] = { fg = nord.nord4_gui },
 		["@text.reference"] = { fg = nord.nord15_gui, style = bold },
 		["@text.emphasis"] = { fg = nord.nord10_gui, style = italic },
