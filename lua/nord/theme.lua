@@ -490,9 +490,9 @@ theme.loadPlugins = function()
 		GitSignsCurrentLineBlame = { fg = nord.nord3_gui_bright, style = bold },
 
 		-- Telescope
-		TelescopePromptBorder = { fg = nord.nord4_gui },
+		TelescopePromptBorder = { fg = nord.nord9_gui },
 		TelescopeResultsBorder = { fg = nord.nord4_gui },
-		TelescopePreviewBorder = { fg = nord.nord4_gui },
+		TelescopePreviewBorder = { fg = nord.nord9_gui },
 		TelescopeSelectionCaret = { fg = nord.nord9_gui },
 		TelescopeSelection = { fg = nord.nord6_gui, bg = nord.nord2_gui },
 		TelescopeMatching = { link = 'Search' },
@@ -511,7 +511,7 @@ theme.loadPlugins = function()
 		NvimTreeMarkdownFile = { fg = nord.nord4_gui },
 		NvimTreeIndentMarker = { fg = nord.nord9_gui },
 		NvimTreeWinSeparator = { fg = nord.nord5_gui },
-    	NvimTreeWinSeparator = { fg = nord.nord0_gui },
+    	NvimTreeWinSeparator = { fg = nord.nord1_gui },
 		NvimTreeGitDirty = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitStaged = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitMerge = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
