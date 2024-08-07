@@ -299,6 +299,7 @@ theme.loadTreeSitter = function()
 		["@text.strike"] = { fg = nord.nord4_gui, style = "strikethrough" },
 		["@text.math"] = { fg = nord.nord7_gui },
 		["@tag.attribute"] = { fg = nord.nord8_gui},
+
 		-- Added be me
 		["@markup.heading.html"] = { fg = nord.nord5_gui },
 		["@property.css"] = { fg = nord.nord5_gui },
