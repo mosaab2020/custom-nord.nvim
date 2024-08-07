@@ -366,7 +366,7 @@ theme.loadTreeSitter = function()
 	treesitter["@function.builtin"] = { fg = nord.nord8_gui, style = italic }
 	treesitter["@namespace"] = { fg = nord.nord4_gui, style = italic }
 	treesitter["@field"] = { fg = nord.nord4_gui, style = italic }
-	treesitter["@property"] = { fg = nord.nord10_gui, style = italic }
+	treesitter["@property"] = { fg = nord.nord9_gui, style = italic }
 	treesitter["@keyword"] = { fg = nord.nord9_gui, style = italic }
 	treesitter["@keyword.function"] = { fg = nord.nord8_gui, style = italic }
 	treesitter["@keyword.return"] = { fg = nord.nord8_gui, style = italic }
