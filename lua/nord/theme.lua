@@ -300,8 +300,10 @@ theme.loadTreeSitter = function()
 		["@text.math"] = { fg = nord.nord7_gui },
 		["@tag.attribute"] = { fg = nord.nord8_gui},
 		-- Added be me
-		["@markup.heading.html"] = { fg = nord.nord5_gui},
-		["@string.plain.css"] = { fg = nord.nord5_gui },
+		["@markup.heading.html"] = { fg = nord.nord5_gui },
+		["@property.css"] = { fg = nord.nord5_gui },
+		["@string.plain.css"] = { fg = nord.nord9_gui },
+		["@string.css"] = { fg = nord.nord9_gui },
 
 		-- @todo Missing highlights
 		-- @function.call
