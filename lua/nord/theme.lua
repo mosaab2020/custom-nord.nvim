@@ -505,7 +505,7 @@ theme.loadPlugins = function()
 		TelescopeMatching = { link = 'Search' },
 
 		-- NvimTree
-		NvimTreeRootFolder = { fg = nord.nord3_gui },
+		NvimTreeRootFolder = { fg = nord.nord4_gui },
 		NvimTreeSymlink = { fg = nord.nord5_gui },
 		NvimTreeFolderName = { fg = nord.nord4_gui },
 		NvimTreeFolderIcon = { fg = nord.nord9_gui },
@@ -629,11 +629,23 @@ theme.loadPlugins = function()
 		SneakScope = { bg = nord.nord1_gui },
 
 		-- Cmp
-		CmpItemKind = { fg = nord.nord15_gui },
-		CmpItemAbbrMatch = { fg = nord.nord5_gui, style = bold },
-		CmpItemAbbrMatchFuzzy = { fg = nord.nord5_gui, style = bold },
-		CmpItemAbbr = { fg = nord.nord4_gui },
-		CmpItemMenu = { fg = nord.nord14_gui },
+		-- CmpItemKind = { fg = nord.nord10_gui },
+		-- CmpItemAbbrMatch = { fg = nord.nord5_gui, style = bold },
+		-- CmpItemAbbrMatchFuzzy = { fg = nord.nord5_gui, style = bold },
+		-- CmpItemAbbr = { fg = nord.nord4_gui },
+		-- CmpItemMenu = { fg = nord.nord14_gui },
+
+		CmpItemAbbrDeprecated = { fg = nord.nord1_gui },
+    	CmpItemAbbrMatch = { fg = nord.nord8_gui, bold = true },
+    	CmpItemAbbrMatchFuzzy = { fg = nord.nord8_gui, bold = true },
+    	CmpItemKind = { fg = nord.nord9_gui },
+    	CmpItemKindVariable = { fg = nord.nord8_gui },
+    	CmpItemKindInterface = { fg = nord.nord8_gui },
+    	CmpItemKindClass = { fg = nord.nord8_gui },
+    	CmpItemKindFunction = { fg = nord.nord15_gui },
+    	CmpItemKindMethod = { fg = nord.nord15_gui },
+    	CmpItemKindSnippet = { fg = nord.nord14_gui },
+    	CmpItemKindText = { fg = nord.nord4_gui },
 
 		-- Indent Blankline
 		IndentBlanklineChar = { fg = nord.nord3_gui },
