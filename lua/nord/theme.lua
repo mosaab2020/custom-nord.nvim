@@ -129,6 +129,9 @@ theme.loadEditor = function()
 		CommandMode = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" },
 		Warnings = { fg = nord.nord15_gui },
 
+    -- Added by me 
+    VertSplit = { fg = nord.nord1_gui },
+
 		healthError = { fg = nord.nord11_gui },
 		healthSuccess = { fg = nord.nord14_gui },
 		healthWarning = { fg = nord.nord15_gui },
