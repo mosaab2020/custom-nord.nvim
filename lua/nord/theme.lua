@@ -130,7 +130,7 @@ theme.loadEditor = function()
 		Warnings = { fg = nord.nord15_gui },
 
     -- Added by me 
-    VertSplit = { fg = nord.nord1_gui },
+    VertSplit = { fg = nord.nord1_gui, bg = nord.nord1_gui },
 
 		healthError = { fg = nord.nord11_gui },
 		healthSuccess = { fg = nord.nord14_gui },
