@@ -74,8 +74,8 @@ theme.loadEditor = function()
 	-- Editor highlight groups
 
 	local editor = {
-		NormalFloat = { fg = nord.nord3_gui, bg = nord.float }, -- normal text and background color
-		FloatBorder = { fg = nord.nord3_gui, bg = nord.float }, -- normal text and background color
+		NormalFloat = { fg = nord.nord4_gui, bg = nord.float }, -- normal text and background color
+		FloatBorder = { fg = nord.nord4_gui, bg = nord.float }, -- normal text and background color
 		ColorColumn = { fg = nord.none, bg = nord.nord1_gui }, -- used for the columns set with 'colorcolumn'
 		Conceal = { fg = nord.nord1_gui }, -- placeholder characters substituted for concealed text (see 'conceallevel')
 		Cursor = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" }, -- the character under the cursor
@@ -128,9 +128,7 @@ theme.loadEditor = function()
 		VisualMode = { fg = nord.nord9_gui, bg = nord.none, style = "reverse" },
 		CommandMode = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" },
 		Warnings = { fg = nord.nord15_gui },
-
-    -- Added by me 
-    VertSplit = { fg = nord.nord1_gui, bg = nord.nord1_gui },
+    WinSeparator = { fg = nord.nord1_gui, },
 
 		healthError = { fg = nord.nord11_gui },
 		healthSuccess = { fg = nord.nord14_gui },
@@ -521,8 +519,8 @@ theme.loadPlugins = function()
 		NvimTreeImageFile = { fg = nord.nord4_gui },
 		NvimTreeMarkdownFile = { fg = nord.nord4_gui },
 		NvimTreeIndentMarker = { fg = nord.nord9_gui },
-		NvimTreeWinSeparator = { fg = nord.nord5_gui },
-    	NvimTreeWinSeparator = { fg = nord.nord1_gui },
+		-- NvimTreeWinSeparator = { fg = nord.nord5_gui },
+    NvimTreeWinSeparator = { fg = nord.nord1_gui },
 		NvimTreeGitDirty = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitStaged = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
 		NvimTreeGitMerge = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
