@@ -15,7 +15,6 @@ elseif vim.g.nord_italic == false then
 else
 	bold_italic = "bold,italic"
 end
-
 theme.loadSyntax = function()
 	-- Syntax highlight groups
 	return {
@@ -95,7 +94,7 @@ theme.loadEditor = function()
 		Pmenu = { fg = nord.nord4_gui, bg = nord.nord1_gui },
 		PmenuSel = { fg = nord.nord4_gui, bg = nord.nord10_gui },
 		PmenuSbar = { fg = nord.nord4_gui, bg = nord.nord1_gui },
-		PmenuThumb = { fg = nord.nord4_gui, bg = nord.nord4_gui },
+		PmenuThumb = { fg = nord.nord9_gui, bg = nord.nord9_gui },
 		Question = { fg = nord.nord14_gui },
 		QuickFixLine = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" },
 		qfLineNr = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" },
