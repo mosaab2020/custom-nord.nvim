@@ -94,7 +94,7 @@ theme.loadEditor = function()
 		Pmenu = { fg = nord.nord4_gui, bg = nord.nord1_gui },
 		PmenuSel = { fg = nord.nord4_gui, bg = nord.nord10_gui },
 		PmenuSbar = { fg = nord.nord4_gui, bg = nord.nord1_gui },
-		PmenuThumb = { fg = nord.nord9_gui, bg = nord.nord9_gui },
+		PmenuThumb = { fg = nord.none, bg = nord.none },
 		Question = { fg = nord.nord14_gui },
 		QuickFixLine = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" },
 		qfLineNr = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" },
