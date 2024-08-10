@@ -295,7 +295,7 @@ theme.loadTreeSitter = function()
 		["@text.emphasis"] = { fg = nord.nord10_gui, style = italic },
 		["@text.underline"] = { fg = nord.nord4_gui, bg = nord.none, style = "underline" },
 		["@text.literal"] = { fg = nord.nord4_gui },
-		["@text.uri"] = { fg = nord.nord14_gui, style = "underline" },
+		["@text.uri"] = { fg = nord.nord5_gui, style = "underline" },
 		["@text.strike"] = { fg = nord.nord4_gui, style = "strikethrough" },
 		["@text.math"] = { fg = nord.nord7_gui },
 		["@tag.attribute"] = { fg = nord.nord8_gui},
