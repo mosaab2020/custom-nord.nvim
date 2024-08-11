@@ -287,7 +287,7 @@ theme.loadTreeSitter = function()
     ["@punctuation.special"] = { fg = nord.nord8_gui },
     ["@symbol"] = { fg = nord.nord15_gui },
     ["@type"] = { fg = nord.nord9_gui },
-    ["@type.builtin"] = { fg = nord.nord9_gui },
+    ["@type.builtin"] = { fg = nord.nord8_gui },
     ["@tag"] = { fg = nord.nord9_gui },
     ["@tag.delimiter"] = { fg = nord.nord9_gui },
     ["@text"] = { fg = nord.nord4_gui },
@@ -372,7 +372,7 @@ theme.loadTreeSitter = function()
   treesitter["@keyword"] = { fg = nord.nord9_gui, style = italic }
   treesitter["@keyword.function"] = { fg = nord.nord9_gui, style = italic }
   treesitter["@keyword.return"] = { fg = nord.nord9_gui, style = italic }
-  treesitter["@keyword.operator"] = { fg = nord.nord8_gui, style = italic }
+  treesitter["@keyword.operator"] = { fg = nord.nord9_gui, style = italic }
   treesitter["@repeat"] = { fg = nord.nord9_gui, style = italic }
   treesitter["@string"] = { fg = nord.nord14_gui, style = italic }
   treesitter["@string.regex"] = { fg = nord.nord7_gui, style = italic }
