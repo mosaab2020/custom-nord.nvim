@@ -507,7 +507,7 @@ theme.loadPlugins = function()
     TelescopeMatching = { link = 'Search' },
 
     -- NvimTree
-    NvimTreeRootFolder = { fg = nord.nord4_gui },
+    NvimTreeRootFolder = { fg = nord.nord3_gui_bright },
     NvimTreeSymlink = { fg = nord.nord5_gui },
     NvimTreeFolderName = { fg = nord.nord4_gui },
     NvimTreeFolderIcon = { fg = nord.nord9_gui },
@@ -519,14 +519,13 @@ theme.loadPlugins = function()
     NvimTreeImageFile = { fg = nord.nord4_gui },
     NvimTreeMarkdownFile = { fg = nord.nord4_gui },
     NvimTreeIndentMarker = { fg = nord.nord9_gui },
-    -- NvimTreeWinSeparator = { fg = nord.nord5_gui },
-    NvimTreeWinSeparator = { fg = nord.nord1_gui },
-    NvimTreeGitDirty = { fg = nord.nord13_gui },   -- diff mode: Changed line |diff.txt|
-    NvimTreeGitStaged = { fg = nord.nord13_gui },  -- diff mode: Changed line |diff.txt|
-    NvimTreeGitMerge = { fg = nord.nord13_gui },   -- diff mode: Changed line |diff.txt|
-    NvimTreeGitRenamed = { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
-    NvimTreeGitNew = { fg = nord.nord14_gui },     -- diff mode: Added line |diff.txt|
-    NvimTreeGitDeleted = { fg = nord.nord11_gui }, -- diff mode: Deleted line |diff.txt|
+    NvimTreeWinSeparator = { fg = nord.nord1_gui }, -- add by me
+    NvimTreeGitDirty = { fg = nord.nord13_gui },    -- diff mode: Changed line |diff.txt|
+    NvimTreeGitStaged = { fg = nord.nord13_gui },   -- diff mode: Changed line |diff.txt|
+    NvimTreeGitMerge = { fg = nord.nord13_gui },    -- diff mode: Changed line |diff.txt|
+    NvimTreeGitRenamed = { fg = nord.nord13_gui },  -- diff mode: Changed line |diff.txt|
+    NvimTreeGitNew = { fg = nord.nord14_gui },      -- diff mode: Added line |diff.txt|
+    NvimTreeGitDeleted = { fg = nord.nord11_gui },  -- diff mode: Deleted line |diff.txt|
     NvimTreeGitIgnored = { fg = nord.nord3_gui_bright },
 
     LspDiagnosticsError = { fg = nord.nord12_gui },
