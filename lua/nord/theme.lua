@@ -333,7 +333,7 @@ theme.loadTreeSitter = function()
   treesitter["@variable.builtin"] = { fg = nord.nord4_gui, style = bold }
   treesitter["@variable.global"] = { fg = nord.nord4_gui, style = bold }
   treesitter["@boolean"] = { fg = nord.nord9_gui, style = bold }
-  treesitter["@constant.builtin"] = { fg = nord.nord7_gui, style = bold }
+  treesitter["@constant.builtin"] = { fg = nord.nord9_gui, style = bold }
   treesitter["@constant.macro"] = { fg = nord.nord7_gui, style = bold }
   treesitter["@text.title"] = { fg = nord.nord10_gui, bg = nord.none, style = bold }
   treesitter["@text.strong"] = { fg = nord.nord10_gui, bg = nord.none, style = bold }
@@ -351,8 +351,8 @@ theme.loadTreeSitter = function()
   treesitter.TSProperty = { fg = nord.nord10_gui, style = italic } -- Same as `TSField`, but when accessing, not declaring.
   -- Language keywords
   treesitter.TSKeyword = { fg = nord.nord9_gui, style = italic }   -- For keywords that don't fall in other categories.
-  treesitter.TSKeywordFunction = { fg = nord.nord8_gui, style = italic }
-  treesitter.TSKeywordReturn = { fg = nord.nord8_gui, style = italic }
+  treesitter.TSKeywordFunction = { fg = nord.nord9_gui, style = italic }
+  treesitter.TSKeywordReturn = { fg = nord.nord9_gui, style = italic }
   treesitter.TSKeywordOperator = { fg = nord.nord8_gui, style = italic }
   treesitter.TSRepeat = { fg = nord.nord9_gui, style = italic }        -- For keywords related to loops.
   -- Strings
