@@ -649,7 +649,8 @@ theme.loadPlugins = function()
     CmpItemKindMethod = { fg = nord.nord15_gui },
     CmpItemKindSnippet = { fg = nord.nord14_gui },
     CmpItemKindText = { fg = nord.nord4_gui },
-    CmpItemSelect = { fg = nord.nord4_gui, bg = nord.nord10_gui },
+    CmpItemSelect = { fg = nord.nord4_gui, bg = nord.nord9_gui },
+    BorderBG = { fg = nord.nord3_gui_bright },
 
     -- Indent Blankline
     IndentBlanklineChar = { fg = nord.nord3_gui },
