@@ -92,7 +92,7 @@ theme.loadEditor = function()
     MoreMsg = { fg = nord.nord4_gui },
     NonText = { fg = nord.nord1_gui },
     Pmenu = { fg = nord.nord4_gui, bg = nord.nord0_gui },
-    PmenuSel = { fg = nord.nord0_gui, bg = nord.nord10_gui_gui },
+    PmenuSel = { fg = nord.nord0_gui, bg = nord.nord10_gui },
     PmenuSbar = { fg = nord.nord4_gui, bg = nord.nord0_gui },
     PmenuThumb = { fg = nord.nord4_gui, bg = nord.nord0_gui },
     Question = { fg = nord.nord14_gui },
