@@ -584,6 +584,7 @@ theme.loadPlugins = function()
     DefinitionSearch = { link = 'Search' },
     DefinitionFile = { fg = nord.nord4_gui, bg = nord.float },
     -- LspSaga hover
+    -- fix me
     LspSagaHoverBorder = { fg = nord.nord4_gui, bg = nord.float },
     LspSagaHoverTrunCateLine = { link = 'LspSagaHoverBorder' },
     -- Lsp rename
