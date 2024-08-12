@@ -92,7 +92,7 @@ theme.loadEditor = function()
     MoreMsg = { fg = nord.nord4_gui },
     NonText = { fg = nord.nord1_gui },
     Pmenu = { fg = nord.nord4_gui, bg = nord.nord0_gui },
-    PmenuSel = { fg = nord.nord4_gui, bg = nord.nord10_gui },
+    PmenuSel = { fg = nord.nord4_gui, bg = nord.nord9_gui },
     PmenuSbar = { fg = nord.nord4_gui, bg = nord.nord0_gui },
     PmenuThumb = { fg = nord.nord4_gui, bg = nord.nord0_gui },
     Question = { fg = nord.nord14_gui },
@@ -649,8 +649,7 @@ theme.loadPlugins = function()
     CmpItemKindMethod = { fg = nord.nord15_gui },
     CmpItemKindSnippet = { fg = nord.nord14_gui },
     CmpItemKindText = { fg = nord.nord4_gui },
-    CmpItemSelect = { fg = nord.nord4_gui, bg = nord.nord9_gui },
-    BorderBG = { fg = nord.nord3_gui_bright },
+    BorderBG = { fg = nord.nord3_gui },
 
     -- Indent Blankline
     IndentBlanklineChar = { fg = nord.nord3_gui },
